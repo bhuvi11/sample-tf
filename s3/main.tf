@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "b1" {
   //acl    = "private"
 
   tags = {
-    Name        = "Private_2_Bucket"
+    Name        = "Private_2_1_Bucket"
   }
 }
 
@@ -17,6 +17,6 @@ resource "aws_s3_bucket" "b2" {
   acl    = "public-read-write"
 
   tags = {
-    Name        = "Public_2Bucket"
+    Name        = "Public_2_1_Bucket"
   }
 }
